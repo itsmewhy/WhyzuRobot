@@ -2,8 +2,8 @@ import threading
 
 from sqlalchemy import Column, String, UnicodeText, Boolean, Integer, distinct, func
 
-from PrimeMega.modules.helper_funcs.msg_types import Types
-from PrimeMega.modules.sql import BASE, SESSION
+from WhyzuRobot.modules.helper_funcs.msg_types import Types
+from WhyzuRobot.modules.sql import BASE, SESSION
 
 
 class CustomFilters(BASE):
