@@ -1,6 +1,6 @@
 import threading
 
-from PrimeMega.modules.sql import BASE, SESSION
+from WhyzuRobot.modules.sql import BASE, SESSION
 from sqlalchemy import (
   Column,
   String,
