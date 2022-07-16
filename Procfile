@@ -1,1 +1,1 @@
-worker: python3 -m WhyzuRoboot
+worker: python3 -m WhyzuRobot
