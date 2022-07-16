@@ -86,7 +86,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 *Hello {} !*
 ────────────────────────
-I'm Whyzu bot manajemen grup yang kuat yang dibangun untuk membantu Anda mengelola grup Anda
+I'm Whyzu bot manajemen grup yang kuat yang dibangun untuk membantu Anda mengelola grup Anda[✨](https://telegra.ph/file/9434958755f0fd73c2b8d.jpg)
 ────────────────────
 Tekan /help atau ketuk tombol untuk melihat perintah yang tersedia pada saya
 """
@@ -94,7 +94,7 @@ Tekan /help atau ketuk tombol untuk melihat perintah yang tersedia pada saya
 buttons = [
         [
         InlineKeyboardButton(
-            text=f"➕️ Add {BOT_NAME} to your group ➕️", url=f"t.me/{BOT_USERNAME}?startgroup=true"
+            text=f" Add {BOT_NAME} to your group ", url=f"t.me/{BOT_USERNAME}?startgroup=true"
         ),
     ],
     [
@@ -105,7 +105,9 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="Help & Commands❔", callback_data="help_back"
+        InlineKeyboardButton(text="Help", callback_data="help_back"
+        ),
+        InlineKeyboardButton(text="About", callback_data="prime_"
         ),
     ],
 ]
