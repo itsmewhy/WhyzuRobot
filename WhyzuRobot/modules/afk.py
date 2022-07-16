@@ -1,12 +1,12 @@
 import random, html
 
-from WhyzuRobota import dispatcher
-from WhyzuRobota.modules.disable import (
+from WhyzuRobot import dispatcher
+from WhyzuRobot.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
 )
-from WhyzuRobota.modules.sql import afk_sql as sql
-from WhyzuRobota.modules.users import get_user_id
+from WhyzuRobot.modules.sql import afk_sql as sql
+from WhyzuRobot.modules.users import get_user_id
 from telegram import MessageEntity, Update
 from telegram.error import BadRequest
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
