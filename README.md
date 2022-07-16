@@ -2,7 +2,7 @@
   <img src="https://telegra.ph/file/1da0ff9b5983912852f83.jpg">
 </p>
 
-<h4><p align="center"> PRIME MEGA </p></h4>
+<h4><p align="center"> WHYZU ROBOT </p></h4>
 
 <p align="center">Prime Mega is a modular bot running on python3 with autobots theme and have a lot features.</p>
 
