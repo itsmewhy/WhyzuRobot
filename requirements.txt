@@ -34,7 +34,6 @@ markdown2
 telethon==1.24.0
 telegraph
 heroku3
-spamwatch
 alphabet_detector
 pyrate-limiter
 cachetools
